@@ -18,8 +18,8 @@ This project now has two controllers. The `FirstViewController` has a button tha
 
 In the `SecondViewController` there is nothing implemented but the override of `preferredStatusBarStyle`.
 
-// TODO: Insert code here
+https://github.com/GustavoAraujoLetras/Navigation-Bar-Style/blob/f3362c01f94bf4c391be7634f490abc9ce37cf78/Navigation%20Bar%20Styles/SecondViewController.swift#L14-L16
 
 By executing it's possible to see that when `SecondViewController` is called, the status bar becomes white  (`UIStatusBarStyle.lightContent`) and whenever the `FirstViewController` is show, the status bar goes back to black (`UIStatusBarStyle.default`)
 
-// TODO: Insert gif here
+![Demonstration](./images/gif/demonstration.gif)
