@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C97FEAF220D2A9CC002CDB40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FEAF120D2A9CC002CDB40 /* AppDelegate.swift */; };
-		C97FEAF420D2A9CC002CDB40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FEAF320D2A9CC002CDB40 /* ViewController.swift */; };
+		C97FEAF420D2A9CC002CDB40 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FEAF320D2A9CC002CDB40 /* FirstViewController.swift */; };
 		C97FEAF720D2A9CC002CDB40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97FEAF520D2A9CC002CDB40 /* Main.storyboard */; };
 		C97FEAFA20D2A9CC002CDB40 /* Navigation_Bar_Styles.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C97FEAF820D2A9CC002CDB40 /* Navigation_Bar_Styles.xcdatamodeld */; };
 		C97FEAFC20D2A9CE002CDB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97FEAFB20D2A9CE002CDB40 /* Assets.xcassets */; };
 		C97FEAFF20D2A9CE002CDB40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97FEAFD20D2A9CE002CDB40 /* LaunchScreen.storyboard */; };
 		C97FEB0A20D2A9CF002CDB40 /* Navigation_Bar_StylesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FEB0920D2A9CF002CDB40 /* Navigation_Bar_StylesTests.swift */; };
 		C97FEB1520D2A9CF002CDB40 /* Navigation_Bar_StylesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FEB1420D2A9CF002CDB40 /* Navigation_Bar_StylesUITests.swift */; };
+		C97FEB2320D2AC00002CDB40 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FEB2220D2AC00002CDB40 /* SecondViewController.swift */; };
+		C97FEB2520D2ADD2002CDB40 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FEB2420D2ADD2002CDB40 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* Begin PBXFileReference section */
 		C97FEAEE20D2A9CC002CDB40 /* Navigation Bar Styles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Bar Styles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97FEAF120D2A9CC002CDB40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C97FEAF320D2A9CC002CDB40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C97FEAF320D2A9CC002CDB40 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		C97FEAF620D2A9CC002CDB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C97FEAF920D2A9CC002CDB40 /* Navigation_Bar_Styles.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Navigation_Bar_Styles.xcdatamodel; sourceTree = "<group>"; };
 		C97FEAFB20D2A9CE002CDB40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		C97FEB1020D2A9CF002CDB40 /* Navigation Bar StylesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation Bar StylesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97FEB1420D2A9CF002CDB40 /* Navigation_Bar_StylesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation_Bar_StylesUITests.swift; sourceTree = "<group>"; };
 		C97FEB1620D2A9CF002CDB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97FEB2220D2AC00002CDB40 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C97FEB2420D2ADD2002CDB40 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,14 @@
 		C97FEAF020D2A9CC002CDB40 /* Navigation Bar Styles */ = {
 			isa = PBXGroup;
 			children = (
+				C97FEB0020D2A9CE002CDB40 /* Info.plist */,
 				C97FEAF120D2A9CC002CDB40 /* AppDelegate.swift */,
-				C97FEAF320D2A9CC002CDB40 /* ViewController.swift */,
-				C97FEAF520D2A9CC002CDB40 /* Main.storyboard */,
+				C97FEAF320D2A9CC002CDB40 /* FirstViewController.swift */,
+				C97FEB2420D2ADD2002CDB40 /* BaseViewController.swift */,
+				C97FEB2220D2AC00002CDB40 /* SecondViewController.swift */,
 				C97FEAFB20D2A9CE002CDB40 /* Assets.xcassets */,
 				C97FEAFD20D2A9CE002CDB40 /* LaunchScreen.storyboard */,
-				C97FEB0020D2A9CE002CDB40 /* Info.plist */,
+				C97FEAF520D2A9CC002CDB40 /* Main.storyboard */,
 				C97FEAF820D2A9CC002CDB40 /* Navigation_Bar_Styles.xcdatamodeld */,
 			);
 			path = "Navigation Bar Styles";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97FEB2320D2AC00002CDB40 /* SecondViewController.swift in Sources */,
 				C97FEAFA20D2A9CC002CDB40 /* Navigation_Bar_Styles.xcdatamodeld in Sources */,
-				C97FEAF420D2A9CC002CDB40 /* ViewController.swift in Sources */,
+				C97FEB2520D2ADD2002CDB40 /* BaseViewController.swift in Sources */,
+				C97FEAF420D2A9CC002CDB40 /* FirstViewController.swift in Sources */,
 				C97FEAF220D2A9CC002CDB40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
